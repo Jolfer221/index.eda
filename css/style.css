@@ -175,10 +175,17 @@ margin-bottom: 30px;
 }
 
 .promo{
-    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin: -20px;
+
 }
 
 .card {
+    flex: 50%;
+    margin: 20px;
     position: relative;
 border-radius: 20px;
 overflow: hidden;
@@ -237,6 +244,20 @@ margin-bottom: 8px;
     margin-bottom: 25px;
 }
 
-.sweet-basket{
-    background:url("../img/sweet-basket.png")
+.card-image {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    object-fit: cover;
+}
+
+.section-title {
+    font-weight: 500;
+font-size: 32px;
+line-height: 23px;
+margin-top: 0;
+margin-bottom: 47px;
 }
